@@ -1,0 +1,40 @@
+.game-field {
+  background-color: orange;
+  min-height: 10vh;
+  margin: 1px 1px 1px 1px;
+  line-height: 10vh;
+}
+
+
+body {
+	display: flex;
+	flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+	margin: 30px auto;
+}
+
+.target {
+  background-color: green;
+  color: white;
+  font-size: 24pt;
+  text-align: center;
+}
+
+.show-off {
+	display: none;
+}
+
+.missed {
+	background-color: #c21717;
+}
+
+.btn-css {
+  width: 60vw;
+}
+
+#button-stop {
+  margin-top: 65px;
+}

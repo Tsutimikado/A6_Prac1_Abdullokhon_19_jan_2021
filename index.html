@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/game.css">
+
+    <title>PWS A6 HW</title>
+
+
+  </head>
+  <body>
+    
+      <h1 class="timerjs">10 квадратов</h1>
+      <div class="container show-off">
+      
+        <div class="row">
+        <div class="col game-field align-text-bottom" id="slot-11" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-12" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-13" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-14" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-15" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-16" onClick = "getBid(this)"></div>
+      </div>
+      <div class="row">
+        <div class="col game-field align-text-bottom" id="slot-21" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-22" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-23" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-24" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-25" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-26" onClick = "getBid(this)"></div>
+      </div>
+      <div class="row">
+        <div class="col game-field align-text-bottom" id="slot-31" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-32" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-33" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-34" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-35" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-36" onClick = "getBid(this)"></div>
+      </div>
+      <div class="row">
+        <div class="col game-field align-text-bottom" id="slot-41" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-42" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-43" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-44" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-45" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-46" onClick = "getBid(this)"></div>
+      </div>
+       <div class="row">
+        <div class="col game-field align-text-bottom" id="slot-51" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-52" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-53" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-54" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-55" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-56" onClick = "getBid(this)"></div>
+      </div>
+      <div class="row">
+        <div class="col game-field align-text-bottom" id="slot-61" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-62" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-63" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-64" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-65" onClick = "getBid(this)"></div>
+        <div class="col game-field align-text-bottom" id="slot-66" onClick = "getBid(this)"></div>
+      </div>
+</div>
+      <div id="win-message" class="show-off">
+        <!-- TODO: можно добавить красные квадратики с отрицательным весом и делать счёт попаданий в конце как разницу очков за попадание минус штрафные -->
+        <h2 class="time-message">Всего потрачено времени <span id="total-time-played"></span> секунд</h2>
+        <ul class="info-message">
+          <li id="in-1"> Меткость <span class="right-span accuracy"></span></li>
+          <li id="in-2"> Ср. время до убийства <span class="right-span akt"> </span></li>
+          <li id="akt-com"> </li> <!-- Комментарий по поводу скорости реакции -->
+          <li id="acc-com"> </li><!-- комментарий по поводу точности -->
+        </ul>
+      </div>
+      
+        <button id="button-stop" class="btn btn-lg btn-outline-danger btn-css show-off">STOP</button>
+        <button type="button " class="btn btn-success btn-lg btn-css" id="btn-start">START!</button>
+      
+    <!-- ------------SCRIIIIIPTS ARE HERE------------- -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/js.js"></script>
+    
+  </body>
+</html>
